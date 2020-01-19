@@ -3,7 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Invector.CharacterController.vThirdPersonController
     - Invector.CharacterController.vThirdPersonInput
-    - PlayerManager
+    - Opening
+    - Teleport
     - vComment
     - vPickupItem
     - vThirdPersonCamera
@@ -59,27 +60,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 626}
+      Script: {instanceID: 628}
     - Class: 114
-      Script: {instanceID: 9734}
+      Script: {instanceID: 9736}
     - Class: 114
-      Script: {instanceID: 9946}
+      Script: {instanceID: 9948}
     - Class: 114
-      Script: {instanceID: 10038}
+      Script: {instanceID: 10040}
     - Class: 114
-      Script: {instanceID: 10358}
+      Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10482}
     - Class: 114
-      Script: {instanceID: 10612}
+      Script: {instanceID: 10614}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 11034}
     - Class: 114
-      Script: {instanceID: 11232}
+      Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 40418}
+      Script: {instanceID: 21584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -158,27 +159,27 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9734}
+      Script: {instanceID: 9736}
     - Class: 114
-      Script: {instanceID: 9946}
+      Script: {instanceID: 9948}
     - Class: 114
-      Script: {instanceID: 10038}
+      Script: {instanceID: 10040}
     - Class: 114
-      Script: {instanceID: 10358}
+      Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10482}
     - Class: 114
-      Script: {instanceID: 10514}
+      Script: {instanceID: 10516}
     - Class: 114
-      Script: {instanceID: 10612}
+      Script: {instanceID: 10614}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 11034}
     - Class: 114
-      Script: {instanceID: 11232}
+      Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 40418}
+      Script: {instanceID: 36978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -758,12 +759,18 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 9470d7c9137d96cd47c9e4b89dbc1587
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerManager
+    className: Teleport
+  - hash:
+      serializedVersion: 2
+      Hash: 41748408307a6d3e03c62e2d579a83cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Opening
   platform: 20
   scenePathNames:
   - "Assets/\u7B2C\u4E00\u95DC.unity"
   - "Assets/\u7B2C\u4E8C\u95DC.unity"
-  playerPath: C:/KID/Projects/Unity/Unity_Practice_TeleportAndFade/Web
+  playerPath: D:/Github/Unity_Practice_TeleportAndFade/NewWeb
